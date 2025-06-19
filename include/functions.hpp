@@ -33,7 +33,6 @@ void bet() {
             moves--;
             placed_bets++;
             continue;
-
         } else {
             cout << "Resta/restam " << players[placed_bets] << " aposta(s)" << endl;
         }
