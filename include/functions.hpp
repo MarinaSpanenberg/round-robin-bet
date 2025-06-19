@@ -20,22 +20,23 @@ void bet() {
    int placed_bets = 1; //jogador apostou
    cout << "=== Rotação das apostas ===" << endl;
     while(moves != 0) {
-        if(players[placed_bets] <= 0) {
+        while(players[placed_bets] <= 0) {
             placed_bets++;
+            if(placed_bets >= total_players) { //manda o jogador que apostou para o final da fila
+                placed_bets = 0;
+            }
         }
         cout << "Jogador " << placed_bets << " realizou " << players[placed_bets] << " apostas" << endl;
-        players[placed_bets] = players[placed_bets] - quantum;
+        players[placed_bets] -= quantum;
         if(players[placed_bets] <= 0) {
             cout << "Apostou tudo" << endl;
             moves--;
+            placed_bets++;
+            continue;
 
         } else {
             cout << "Resta/restam " << players[placed_bets] << " aposta(s)" << endl;
         }
-        placed_bets++; //vai para o próximo jogador 
-            if(placed_bets > total_players) { //manda o jogador que apostou para o final da fila
-                placed_bets = 0;
-            }
-
+        placed_bets++; //vai para o próximo jogador        
     }
 }

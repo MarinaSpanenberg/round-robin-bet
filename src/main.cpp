@@ -12,6 +12,6 @@ int main() {
     cin >> total_players;
     number_of_bets();
     bet();
-
+    return 0;
 }
 
