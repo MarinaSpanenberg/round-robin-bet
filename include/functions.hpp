@@ -26,8 +26,10 @@ void bet() {
                 placed_bets = 0;
             }
         }
+        
         cout << "Jogador " << placed_bets << " realizou " << players[placed_bets] << " apostas" << endl;
         players[placed_bets] -= quantum;
+
         if(players[placed_bets] <= 0) {
             cout << "Apostou tudo" << endl;
             moves--;
