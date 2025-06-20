@@ -37,12 +37,16 @@ make
 ```
 ## Explicação e demonstração em vídeo:
 ### 1. O que é Round Robin:
+https://github.com/user-attachments/assets/3ec24df6-d837-40b5-afb4-2453e9f6c8bb
 
 ### 2. Funcionamento do código #1:
+https://github.com/user-attachments/assets/71cdf0a8-0dfa-442e-9edf-c27013f0b09b
 
 ### 3. Funcionamento do código #2:
+https://github.com/user-attachments/assets/95762720-a3ae-4d16-bec7-2c7dc86582cb
 
 ### 4. Demonstração:
+https://github.com/user-attachments/assets/7d703831-8419-494d-ab7f-d8bf9c9712a2
 
 ## Referências:
 - https://www-geeksforgeeks-org.translate.goog/operating-systems/program-for-round-robin-scheduling-for-the-same-arrival-time/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc
