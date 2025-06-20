@@ -1,5 +1,7 @@
 # Jogo de Apostas com Round Robin
 Este repositório trata-se de um jogo simples via terminal que procurar simular o funcionamento do **escalonamento circular (round robin)**. Feito utilizando a linguagem de programaçäo **C++**;
+## Integrantes:
+Ana Flávia Melo, João Vítor Bortoluz, Luiz Henrique Albuquerque e Marina Barbosa.
 
 ## Contexto do Round Robin
 *Round Robin* ou escalonamento circular, é um algoritmo simples que reparte de maneira uniforme o tempo da CPU entre todos os processos prontos para a execução. Esse tempo trata-se do *quantum*. É a versão preemptiva do FIFO, ou seja, iniciou-se x processos, o primeiro a rodar terminou de utilizar o quantum pré-estabelecido mas ainda possui dados que devem ser processados pela CPU, esse processo irá para o final da fila dos processos a serem executados. 
